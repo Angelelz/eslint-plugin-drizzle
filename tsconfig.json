@@ -29,7 +29,6 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.js",
-    "package.json",
+    "src/**/*.js"
   ],
 }
