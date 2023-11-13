@@ -2,8 +2,6 @@
 
 eslint plugin for drizzle users to avoid common pitfalls
 
-[**Propose or contribute a new rule ➡**](.github/issues)
-
 ## Install
 
 ```sh
@@ -39,6 +37,7 @@ If you don't use the preset, ensure you use the same `env` and `parserOptions` c
 ## Rules
 
 **enforce-delete-with-where**: Enforce using `delete` with `where` in `DELETE` statement
+
 **enforce-update-with-where**: Enforce using `update` with `where` in `UPDATE` statement
 
 ## Preset configs
@@ -68,3 +67,5 @@ This plugin exports an [`all` config](src/configs/all.js) that makes use of all 
   }
 }
 ```
+
+At the moment, `all` is equivalent to `recommended`.
