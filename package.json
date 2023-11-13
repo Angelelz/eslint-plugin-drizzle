@@ -1,0 +1,31 @@
+{
+  "name": "eslint-plugin-drizzle",
+  "version": "0.1.0",
+  "description": "Eslint plugin for drizzle users to avoid common pitfalls",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "npx tsc -b"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "drizzle"
+  ],
+  "author": "Angelelz",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/utils": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@typescript-eslint/rule-tester": "^6.10.0",
+    "eslint": "^8.53.0",
+    "prettier": "3.0.3",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  }
+}
