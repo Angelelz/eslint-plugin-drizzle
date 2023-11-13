@@ -15,11 +15,10 @@
     "lib": [
       "esnext"
     ],
-    "composite": true,
-    "incremental": true,
+    "composite": false,
+    "incremental": false,
     "declaration": true,
     "declarationMap": true,
-    "rootDir": "src",
     "skipLibCheck": true,
     "outDir": "dist",
     "module": "nodenext",
@@ -29,6 +28,6 @@
   },
   "include": [
     "src/**/*.ts",
-    "src/**/*.js"
-  ],
+    "package.json"
+  ]
 }
