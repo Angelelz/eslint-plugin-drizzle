@@ -6,3 +6,8 @@ export const rules = {
   "enforce-delete-with-where": deleteRule,
   "enforce-update-with-where": updateRule,
 } satisfies Record<string, TSESLint.RuleModule<string, Array<unknown>>>;
+
+export const configs = {
+  all: require("./configs/all"),
+  recommended: require("./configs/recommended"),
+};
