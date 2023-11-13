@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-drizzle",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Eslint plugin for drizzle users to avoid common pitfalls",
   "main": "dist/index.js",
   "scripts": {
